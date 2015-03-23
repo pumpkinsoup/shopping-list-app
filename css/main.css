@@ -3,13 +3,13 @@
 body {
     /* Typography Declarations */
     color: #222222;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Satisfy", cursive;
 }
 
 body {
 	background-color: #C0C0C0;
-	line-height: 1.25;
+	line-height: 1;
 	font-weight: 100;
 	max-width: 400px;
 	margin-left: auto;
@@ -34,13 +34,30 @@ body {
 
 .sorting {
 	text-align: center;
+	font-size: 15px;
 }
 
 .sortable {
-	padding-left: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
+
 ol, ul {
   list-style: none;
+}
+
+.purchased {
+	text-decoration: line-through;
+}
+
+.item {
+	background-color: #A0A0A0;
+	margin: 5px;
+	color: black;
+}
+
+.trash {
+	text-align: right;
 }
 
 .bottom {
