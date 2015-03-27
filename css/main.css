@@ -5,10 +5,7 @@ body {
     color: #222222;
     font-size: 18px;
     font-family: "Satisfy", cursive;
-}
-
-body {
-	background-color: #C0C0C0;
+    background-color: #C0C0C0;
 	line-height: 1;
 	font-weight: 100;
 	max-width: 400px;
@@ -16,7 +13,7 @@ body {
 	margin-right: auto;
 }
 
-.main {
+#main {
 	background-color: white;
   	margin-top: 20px;
   	padding-top: 1px;
@@ -28,13 +25,18 @@ body {
 	padding: 1px;
 }
 
+#cart {
+	padding-left: 10px;
+}
+
 .enter-items {
 	text-align: center;
 }
 
-.sorting {
+#instructions {
 	text-align: center;
 	font-size: 15px;
+	line-height: 0.5px;
 }
 
 .sortable {
@@ -43,7 +45,11 @@ body {
 }
 
 ol, ul {
-  list-style: none;
+	list-style: none;
+}
+
+#trash {
+	float: right;
 }
 
 .purchased {
@@ -51,7 +57,6 @@ ol, ul {
 }
 
 .item {
-	background-color: #A0A0A0;
 	margin: 5px;
 	color: black;
 }
@@ -60,18 +65,24 @@ ol, ul {
 	text-align: right;
 }
 
+span {
+	float: right;
+}
+
 .bottom {
 	text-align: center;
 }
+
 .joni {
 	font-size: 13px;
 }
+
 .connect {
 	font-size: 11px;
 }
 
 .bottom li {
-  text-align: center;
-  display: inline-block;
-  margin-right: 7px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 7px;
 }

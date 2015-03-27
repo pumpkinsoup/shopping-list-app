@@ -8,7 +8,7 @@
 	<script src="js/app.js"></script>
 </head>
 <body>
-<div class="main">
+<div id="main">
 	<div class="header">
 		<h1>My Shopping List <img id="cart" src="http://i.imgur.com/RckrzITt.jpg?1" width="38px" height="auto" /></a></h1>
 	</div>
@@ -16,18 +16,22 @@
 	<input id="myInput" type="text">
 	<button type="submit" id="addItem">+</button>
 	<br>
-	<p class="sorting">Drag items to sort list</p>
+		<div id="instructions">
+			<p>Drag items to sort list.</p> 
+			<p>Click to strike through.</p> 
+			<p>Double click to delete.</p>
+		</div>
 	</div>
 	<ul id="list" class="sortable">
-		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>eggs<img src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></a></li>
+		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>eggs<img id="trash" src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></a></li>
 		
-		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>bread<img src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
+		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>bread<img id="trash" src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
 
-		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>chicken<img src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
+		<li class="item"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>chicken<img id="trash" src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
 		
-		<li class="item purchased"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>frozen veggies<img src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
+		<li class="item purchased"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>frozen veggies<img id="trash" src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
 		
-		<li class="item purchased"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>beef<img src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
+		<li class="item purchased"><img src="http://i.imgur.com/PUPBVjl.jpg?1" width="22px" height="auto" /></a><img src="http://i.imgur.com/B3d05Jjs.jpg?1" width="22px" height="auto" /></a>beef<img id="trash" src="http://i.imgur.com/i0XDRlwt.jpg?1" width="16px" height="auto" /></li>
 	</ul>
 </div>
 
