@@ -20,7 +20,7 @@ body {
   	height: 500px;
 }
 
-.header {
+#header {
 	text-align: center;
 	padding: 1px;
 }
